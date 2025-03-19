@@ -18,7 +18,7 @@ if __name__ == '__main__':
 ```
 
 ## Solution
-import random
+[import random
 
 NUM_SIDES = 6
 
@@ -38,4 +38,4 @@ def main():
 
 if __name__ == '__main__':
     main()
-    
+    ](https://colab.research.google.com/drive/1cn2wgds3FaoVcmfq56tIdHxRRCZw-SK_?authuser=4#scrollTo=muBOO6tWJDM3&line=1&uniqifier=1)
