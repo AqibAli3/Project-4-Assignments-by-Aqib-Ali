@@ -1,12 +1,12 @@
 # [01 Dicesimulator](https://colab.research.google.com/drive/1cn2wgds3FaoVcmfq56tIdHxRRCZw-SK_?authuser=4#scrollTo=muBOO6tWJDM3&line=21&uniqifier=1)
 
-# Problem Statement
+## Problem Statement
 
-Simulate rolling two dice, three times.  Prints the results of each die roll.  This program is used to show how variable scope works.
+Simulate rolling two dice, three times. Prints the results of each die roll. This program is used to show how variable scope works.
 
 ## Starter Code
 
-```bash
+```python
 def main():
     print("Delete this line and write your code here! :)")
 
@@ -17,5 +17,30 @@ if __name__ == '__main__':
     main()
 ```
 
-# Solution
+## Solution
+
+```python
+import random
+
+NUM_SIDES = 6
+
+def roll_dice():
+    die1 = random.randint(1, NUM_SIDES)
+    die2 = random.randint(1, NUM_SIDES)
+    total = die1 + die2
+    print("Total of two dice:", total)
+
+def main():
+    die1 = 10
+    print("die1 in main() starts as: " + str(die1))
+    roll_dice()
+    roll_dice()
+    roll_dice()
+    print("die1 in main() is: " + str(die1))
+
+if __name__ == '__main__':
+    main()
+```
+
+## [View Solution on Colab]
 https://colab.research.google.com/drive/1cn2wgds3FaoVcmfq56tIdHxRRCZw-SK_?authuser=4#scrollTo=muBOO6tWJDM3&line=1&uniqifier=1
