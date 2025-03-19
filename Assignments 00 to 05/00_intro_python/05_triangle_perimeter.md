@@ -1,5 +1,4 @@
-
-
+# [*05 Riangle Perimeter*](https://colab.research.google.com/drive/1pBmMJ81MIpXnT3Y1z5LbyWnS4Bo-tWCC?usp=sharing)
 ## Problem Statement
 
 Prompt the user to enter the lengths of each side of a triangle and then calculate and print the perimeter of the triangle (the sum of all of the side lengths).
