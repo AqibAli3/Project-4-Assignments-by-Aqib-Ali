@@ -35,9 +35,3 @@ if __name__ == '__main__':
 ## Solution
 
 (https://colab.research.google.com/drive/1yEIxcerjDKaISA0F_SSquDkLYIfcqYm-?authuser=4#scrollTo=Qt26auvVo8JR)
-
-# This provided line is required at the end of
-# Python file to call the main() function.
-if __name__ == '__main__':
-    main()
-```
