@@ -23,7 +23,7 @@ if __name__ == '__main__':
     main()
 ```
 
-## Solution
+## [Solution](https://colab.research.google.com/drive/1Wo3bOTs8nE0FZdGeLweIakYy9cLenell?authuser=4#scrollTo=cklomeR7-fHl&line=7&uniqifier=1)
 
 ```bash
 
