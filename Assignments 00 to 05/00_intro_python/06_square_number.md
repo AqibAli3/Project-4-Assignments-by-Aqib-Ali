@@ -23,18 +23,6 @@ if __name__ == '__main__':
     main()
 ```
 
-## [Solution](https://colab.research.google.com/drive/1Wo3bOTs8nE0FZdGeLweIakYy9cLenell?authuser=4#scrollTo=cklomeR7-fHl&line=7&uniqifier=1)
+# [Solution](https://colab.research.google.com/drive/1Wo3bOTs8nE0FZdGeLweIakYy9cLenell?authuser=4#scrollTo=cklomeR7-fHl&line=7&uniqifier=1)
 
-```bash
-
-def main():
-    num: float = float(input("Type a number to see its square: ")) # Make sure to cast the input to a float so we can do math with it!
-    print(str(num) + " squared is " + str(num ** 2)) # num * num is equivalent to num ** 2. The ** operator raises something to a power!
-
-
-# There is no need to edit code beyond this point
-
-if __name__ == '__main__':
-    main()
-
-```
+https://colab.research.google.com/drive/1Wo3bOTs8nE0FZdGeLweIakYy9cLenell?usp=sharing
