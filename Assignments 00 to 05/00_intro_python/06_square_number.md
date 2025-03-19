@@ -1,4 +1,4 @@
-
+#[*06 Square Number*](https://colab.research.google.com/drive/1Wo3bOTs8nE0FZdGeLweIakYy9cLenell?usp=sharing)
 
 ## Problem Statement
 
