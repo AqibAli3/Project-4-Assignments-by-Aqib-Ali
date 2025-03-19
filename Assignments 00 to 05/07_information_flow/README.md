@@ -1,15 +1,12 @@
-# Project-4-Assignments-by-Aqib-Ali
-Project 4 Assignments
-Create a Github repository and do the following assignments:
+## Python Homework Projects
 
-Assignments 00 to 05 https://github.com/panaversity/learn-modern-ai-python/tree/main/PROJECTS/homework_projects
+Homework python projects to Master your skillset. Must be practiced by all students in homework, instructors may also cover some of them in onsite classes.
 
-Assignments 01 https://github.com/panaversity/learn-modern-ai-python/tree/main/PROJECTS/online_class_projects
+## Google Colab
 
-Assignments 1 to 6 https://github.com/panaversity/learn-modern-ai-python/blob/main/PROJECTS/projects_to_be_submitted_by_students/readme.md
+Google Colab will be used by students to complete all assignments and projects
 
-Once you are done submit this form ASAP:
+https://colab.research.google.com/
 
-https://forms.gle/tS7C3sr55tUZ36GY8
-
-Good luck! 🚀
+We will use the Colab code generation capabilities and also it's ability to explain code.
+ 
