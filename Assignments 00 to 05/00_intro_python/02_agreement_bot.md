@@ -1,4 +1,4 @@
-# [02 Agreement Bot](https://colab.research.google.com/drive/1b-WIcKOaYNFYp1YsZJS1oeEwSb87Kt9O?usp=sharing)
+# [*02 Agreement Bot*](https://colab.research.google.com/drive/1b-WIcKOaYNFYp1YsZJS1oeEwSb87Kt9O?usp=sharing)
 
 Problem Statement
 Write a program which asks the user what their favorite animal is, and then always responds with "My favorite animal is also ___!" (the blank should be filled in with the user-inputted animal, of course).
