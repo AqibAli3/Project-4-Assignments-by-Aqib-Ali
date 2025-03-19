@@ -18,6 +18,5 @@ def main():
 # Python file to call the main() function.
 if __name__ == '__main__':
     main()
-# Solution
 
-# [02 Agreement Bot](https://colab.research.google.com/drive/1b-WIcKOaYNFYp1YsZJS1oeEwSb87Kt9O?usp=sharing)
+# [Solution](https://colab.research.google.com/drive/1b-WIcKOaYNFYp1YsZJS1oeEwSb87Kt9O?usp=sharing)
