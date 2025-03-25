@@ -35,3 +35,23 @@ if __name__ == '__main__':
 ## Solution
 
 (https://colab.research.google.com/drive/1yEIxcerjDKaISA0F_SSquDkLYIfcqYm-?authuser=4#scrollTo=Qt26auvVo8JR)
+
+# This program calculates the sum of two numbers.
+
+def main():
+    print("This program will calculate the sum of two numbers.")
+
+    num1 = input("Enter the first number: ")
+    num1 = int(num1)
+
+    num2 = input("Enter the second number: ")
+    num2 = int(num2)
+
+    total = num1 + num2
+
+    print("The sum of the two numbers is: " + str(total) + ".")
+
+
+if __name__ == '__main__':
+    main()
+
