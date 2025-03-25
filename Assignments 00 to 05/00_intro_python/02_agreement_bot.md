@@ -21,3 +21,14 @@ if __name__ == '__main__':
 
 # [Solution](https://colab.research.google.com/drive/1b-WIcKOaYNFYp1YsZJS1oeEwSb87Kt9O?usp=sharing)
 https://colab.research.google.com/drive/1b-WIcKOaYNFYp1YsZJS1oeEwSb87Kt9O?usp=sharing
+
+# This program asks the user for their favorite animal and responds with it.
+```
+def main():
+    favorite_animal = input("What's your favorite animal? ")
+
+    print("My favorite animal is also " + favorite_animal + "!")
+
+if __name__ == '__main__':
+    main()
+```
