@@ -18,10 +18,7 @@ if __name__ == '__main__':
 ## Solution
 
 ```bash
-"""
-Simulate rolling two dice, and prints results of each
-roll as well as the total.
-"""
+
 # Import the random library which lets us simulate random things like dice!
 import random
 
