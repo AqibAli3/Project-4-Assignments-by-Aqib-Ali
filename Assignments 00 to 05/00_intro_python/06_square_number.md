@@ -24,5 +24,11 @@ if __name__ == '__main__':
 ```
 
 # [Solution](https://colab.research.google.com/drive/1Wo3bOTs8nE0FZdGeLweIakYy9cLenell?authuser=4#scrollTo=cklomeR7-fHl&line=7&uniqifier=1)
+def main():
+    num = float(input("Type a number to see its square: "))
+    print(str(num) + " squared is " + str(num ** 2))
+
+if __name__ == '__main__':
+    main()
 
 https://colab.research.google.com/drive/1Wo3bOTs8nE0FZdGeLweIakYy9cLenell?usp=sharing
