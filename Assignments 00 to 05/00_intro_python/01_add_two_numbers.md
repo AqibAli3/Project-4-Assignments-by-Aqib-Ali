@@ -37,6 +37,7 @@ if __name__ == '__main__':
 (https://colab.research.google.com/drive/1yEIxcerjDKaISA0F_SSquDkLYIfcqYm-?authuser=4#scrollTo=Qt26auvVo8JR)
 
 # This program calculates the sum of two numbers.
+```
 
 def main():
     print("This program will calculate the sum of two numbers.")
@@ -54,4 +55,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+```
 
