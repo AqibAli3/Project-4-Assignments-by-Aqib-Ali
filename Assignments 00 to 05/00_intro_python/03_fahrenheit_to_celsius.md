@@ -28,3 +28,19 @@ if __name__ == '__main__':
     main()
 # [Solution](https://colab.research.google.com/drive/1p7L6XpyxC4o3TwD1QV4lP7ZBzBLUN9nN?usp=sharing)
 https://colab.research.google.com/drive/1p7L6XpyxC4o3TwD1QV4lP7ZBzBLUN9nN?usp=sharing
+# This program converts a temperature from Fahrenheit to Celsius.
+```
+def main():
+    # Prompt the user for the temperature in Fahrenheit
+    fahrenheit = float(input("Enter temperature in Fahrenheit: "))
+
+    # Convert Fahrenheit to Celsius using the given formula
+    celsius = (fahrenheit - 32) * 5.0 / 9.0
+
+    # Display the result
+    print(f"Temperature: {fahrenheit}F = {celsius}C")
+
+# Required line to call the main function
+if __name__ == '__main__':
+    main()
+```
