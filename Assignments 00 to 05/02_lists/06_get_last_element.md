@@ -17,6 +17,7 @@ if __name__ == '__main__':
 
 ## Solution
 
+```
 def get_last_element(lst):
     print(lst[-1])  # Directly prints the last element of the list using negative indexing
 
@@ -36,4 +37,5 @@ def main():
 if __name__ == '__main__':
     main()
 ```
+
 https://colab.research.google.com/drive/14vpKAsi1uIUb4ROCUols6HuE78eugFpH?authuser=4#scrollTo=TcnZMPCc5kSG&line=19&uniqifier=1
