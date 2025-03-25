@@ -30,21 +30,15 @@ if __name__ == '__main__':
 
 ```bash
 def main():
-    # Get the 3 side lengths of the triangle
     side1 = float(input("What is the length of side 1? "))
     side2 = float(input("What is the length of side 2? "))
     side3 = float(input("What is the length of side 3? "))
-
-    # Calculate the perimeter by summing up the sides
     perimeter = side1 + side2 + side3
-
-    # Print the perimeter of the triangle
     print("The perimeter of the triangle is " + str(perimeter))
 
-
-# Required line to call the main function
 if __name__ == '__main__':
     main()
+
 ```
 
 https://colab.research.google.com/drive/1pBmMJ81MIpXnT3Y1z5LbyWnS4Bo-tWCC?usp=sharing
