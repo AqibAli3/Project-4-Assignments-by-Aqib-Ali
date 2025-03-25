@@ -18,5 +18,16 @@ if __name__ == '__main__':
 ```
 
 ## Solution
+```
+INCHES_IN_FOOT = 12
 
+def main():
+    feet = float(input("Enter number of feet: "))
+    inches = feet * INCHES_IN_FOOT
+    print("That is", inches, "inches!")
+
+if __name__ == '__main__':
+    main()
+
+```
 https://colab.research.google.com/drive/1xj5yQ4D2ajYFmAS3hTYCYZ-EwJC2AkWd?authuser=4#scrollTo=7HPbSacNP1Pt&line=10&uniqifier=1
