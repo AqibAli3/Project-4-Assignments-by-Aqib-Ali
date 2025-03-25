@@ -36,8 +36,6 @@ def add_three_copies(my_list, data):
     for i in range(3):
         my_list.append(data)
 
-########## No need to edit code past this point
-
 def main():
     message = input("Enter a message to copy: ")
     my_list = []
@@ -48,3 +46,4 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+https://colab.research.google.com/drive/1JL3WuHLM930yxuTNUs-bwlKgzyj2hUXD?authuser=4#scrollTo=J0sGnCkk2lCh&line=14&uniqifier=1
