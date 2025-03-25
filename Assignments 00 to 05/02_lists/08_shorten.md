@@ -18,31 +18,30 @@ if __name__ == '__main__':
 ## Solution
 
 ```bash
-MAX_LENGTH : int = 3
+MAX_LENGTH = 3  # Set the maximum length for the list
 
 def shorten(lst):
+    # Keep removing elements from the end of the list until its length is MAX_LENGTH
     while len(lst) > MAX_LENGTH:
         last_elem = lst.pop()
         print(last_elem)
 
-# There is no need to edit code beyond this point
-
 def get_lst():
-    """
-    Prompts the user to enter one element of the list at a time and returns the resulting list.
-    """
+    # Prompt the user to enter elements into a list
     lst = []
-    elem = input("Please enter an element of the list or press enter to stop. ")
+    elem = input("Please enter an element of the list or press enter to stop: ")
     while elem != "":
         lst.append(elem)
-        elem = input("Please enter an element of the list or press enter to stop. ")
+        elem = input("Please enter an element of the list or press enter to stop: ")
     return lst
 
 def main():
+    # Generate the list and shorten it based on MAX_LENGTH
     lst = get_lst()
     shorten(lst)
 
-
 if __name__ == '__main__':
     main()
+
 ```
+https://colab.research.google.com/drive/11laxkTABRfWrFaM_awyeThXHfYGGUljG?authuser=4#scrollTo=b4dkjPcHGv4u&line=25&uniqifier=1
