@@ -21,16 +21,22 @@ if __name__ == '__main__':
 ```
 
 ## Solution
-
+```bash
 def print_ones_digit(num):
-    print("The ones digit is", num % 10)
+    """
+    Prints the ones digit of the given integer.
+    """
+    print("The ones digit is", num % 10)  # Get the ones digit using the modulo operator
 
 def main():
-    num = int(input("Enter a number: "))
-    print_ones_digit(num)
+    """
+    Main function to take user input and call print_ones_digit.
+    """
+    num = int(input("Enter a number: "))  # Prompt user to enter a number
+    print_ones_digit(num)  # Call the helper function with the input number
 
-
-# There is no need to edit code beyond this point
-
+# Required boilerplate to run the program
 if __name__ == '__main__':
     main()
+```
+## https://colab.research.google.com/drive/1eP5DBfB-QawNJAf78FegaF8MZIbuvhR1?authuser=4#scrollTo=wA3a3zH8ugPk&line=17&uniqifier=1
