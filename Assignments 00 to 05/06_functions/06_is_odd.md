@@ -27,23 +27,21 @@ if __name__ == '__main__':
 ## Solution
 ```bash
 def main():
-    for i in range(10):
-        if is_odd(i):
-            print('odd')
+    for i in range(10, 20):  # Loop through numbers from 10 to 19
+        if is_odd(i):  # Check if the current number is odd
+            print(i, "odd")  # Print the number and "odd"
         else:
-            print('even')
+            print(i, "even")  # Print the number and "even"
             
 def is_odd(value: int):
     """
-    Checks to see if a value is odd. If it is, returns true.
+    Checks to see if a value is odd. Returns True if it is, False otherwise.
     """
-    
-    remainder = value % 2  # 0 if value is divisible by 2, 1 if it isn't
-    return remainder == 1
+    return value % 2 == 1  # Returns True if the value is not divisible by 2
 
-
-# There is no need to edit code beyond this point
-
+# Call the main function when the program runs
 if __name__ == '__main__':
     main()
+
 ```
+## https://colab.research.google.com/drive/1ctBwdpV7_SWJBcjq2_QNQ-TaglKJyuBd?authuser=4#scrollTo=lFRrkvvgsvMz&line=17&uniqifier=1
