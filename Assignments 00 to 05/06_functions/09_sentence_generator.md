@@ -31,28 +31,36 @@ if __name__ == '__main__':
 ## Solution
 ```bash
 def make_sentence(word, part_of_speech):
+    """
+    Constructs a sentence using the given word and part of speech.
+    """
     if part_of_speech == 0:
-        # noun
+        # Noun template
         print("I am excited to add this " + word + " to my vast collection of them!")
     elif part_of_speech == 1:
-        # verb
+        # Verb template
         print("It's so nice outside today it makes me want to " + word + "!")
     elif part_of_speech == 2:
-        # adjective
+        # Adjective template
         print("Looking out my window, the sky is big and " + word + "!")
     else:
-        # part_of_speech is invalid (not 0, 1, or 2)
+        # Invalid input for part of speech
         print("Part of speech must be 0, 1, or 2! Can't make a sentence.")
 
-# There is no need to edit code beyond this point
-
+# No need to edit code beyond this point
 def main():
-    word :  str = input("Please type a noun, verb, or adjective: ")
+    """
+    Main function for user interaction and processing.
+    """
+    word = input("Please type a noun, verb, or adjective: ")  # Prompt user for a word
     print("Is this a noun, verb, or adjective?")
-    part_of_speech = int(input("Type 0 for noun, 1 for verb, 2 for adjective: "))
-    make_sentence(word, part_of_speech)
+    part_of_speech = int(input("Type 0 for noun, 1 for verb, 2 for adjective: "))  # Prompt user for part of speech
+    make_sentence(word, part_of_speech)  # Call helper function with inputs
 
+# Entry point of the program
 if __name__ == '__main__':
     main()
 
+
 ```
+## https://colab.research.google.com/drive/1gptRKaYepZBcxd3HKvPQvoqB77ESc0qG?authuser=4#scrollTo=Xj9Ves4Qty_-&line=31&uniqifier=1
