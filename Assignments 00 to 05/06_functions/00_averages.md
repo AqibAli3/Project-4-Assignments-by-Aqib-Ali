@@ -20,23 +20,27 @@ if __name__ == '__main__':
 ```bash
 def average(a: float, b: float):
     """
-    Returns the number which is half way between a and b
+    Returns the number which is halfway between a and b
     """
     sum = a + b
     return sum / 2
 
 def main():
+    # Compute averages for different pairs
     avg_1 = average(0, 10)
     avg_2 = average(8, 10)
     
+    # Calculate a final average using previous results
     final = average(avg_1, avg_2)
-    print("avg_1", avg_1)
-    print("avg_2", avg_2)
-    print("final", final)
     
+    # Print out the results
+    print("avg_1:", avg_1)  # Average of 0 and 10
+    print("avg_2:", avg_2)  # Average of 8 and 10
+    print("final:", final)  # Final average
 
-# There is no need to edit code beyond this point
-
+# Boilerplate to run the program
 if __name__ == '__main__':
     main()
+
 ```
+## https://colab.research.google.com/drive/1pNcsTi1Xdy5VqQK9Q9z6G0Hq-9ubiYqm?authuser=4#scrollTo=vzSSZqfDlpWF&line=24&uniqifier=1
