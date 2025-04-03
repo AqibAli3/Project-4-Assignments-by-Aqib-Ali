@@ -31,21 +31,28 @@ if __name__ == '__main__':
 
 ## Solution
 ```bash
-MINIMUM_HEIGHT : int = 50 # arbitrary units :)
+MINIMUM_HEIGHT = 50  # arbitrary units :)
 
-def main():
-    height = float(input("How tall are you? "))
-    if height >= MINIMUM_HEIGHT:
-        print("You're tall enough to ride!")
-    else:
-        print("You're not tall enough to ride, but maybe next year!")
+def tall_enough_extension():
+    while True:
+        user_input = input("How tall are you? (Enter nothing to stop) ")
+        if user_input == "":  # Stop the loop when no input is provided
+            print("Goodbye!")
+            break
+        try:
+            height = float(user_input)
+            if height >= MINIMUM_HEIGHT:
+                print("You're tall enough to ride!")
+            else:
+                print("You're not tall enough to ride, but maybe next year!")
+        except ValueError:  # Handle invalid inputs that aren't numbers
+            print("Please enter a valid number for your height.")
 
-
-# There is no need to edit code beyond this point
-
+# No need to edit code beyond this point
 if __name__ == '__main__':
-    main()
+    tall_enough_extension()
 ```
+https://colab.research.google.com/drive/1mjN5zpUvSNdmfU6dwhLKso8FYV6W3Jqu?authuser=4#scrollTo=_m8FeNDsvmeX&line=12&uniqifier=1
 
 
 
