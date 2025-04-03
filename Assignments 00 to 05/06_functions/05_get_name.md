@@ -22,14 +22,20 @@ if __name__ == '__main__':
 ## Solution
 ```bash
 def get_name():
+    """
+    This function returns the name 'Sophia' as required.
+    """
     return "Sophia"
 
-# There is no need to edit code beyond this point
-
 def main():
-    name = get_name() # get_name() will return a string which we store to the 'name' variable here
-    print("Howdy", name, "! 🤠")
+    """
+    Main function retrieves the name and prints a greeting.
+    """
+    name = get_name()  # Fetch the name from get_name function
+    print("Howdy", name, "! 🤠")  # Print the personalized greeting
 
 if __name__ == '__main__':
     main()
+
 ```
+## https://colab.research.google.com/drive/1FB2ZZj4abpJmP2jBm0LBAoBfupCmkd-J?authuser=4#scrollTo=K7yFLiNesORr&line=6&uniqifier=1
