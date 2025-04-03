@@ -23,15 +23,22 @@ if __name__ == '__main__':
 ## Solution
 ```bash
 def double(num: int):
+    """
+    Function to double the given number.
+    """
     return num * 2
 
-# There is no need to edit code beyond this point
-
 def main():
-    num = int(input("Enter a number: "))
-    num_times_2 = double(num)
-    print("Double that is", num_times_2)
+    """
+    Main function to ask the user for a number, double it,
+    and print the result.
+    """
+    num = int(input("Enter a number: "))  # Prompt user input
+    num_times_2 = double(num)            # Call double() function
+    print("Double that is", num_times_2) # Print the result
 
 if __name__ == '__main__':
     main()
+
 ```
+## https://colab.research.google.com/drive/1Ob9loikW_zPGjx4IlcXWqsTho9vvX3V-?authuser=4#scrollTo=nKBuUwtUr04V&line=20&uniqifier=1
