@@ -46,3 +46,18 @@ if __name__ == '__main__':
 
 ## Solution
 
+```bash
+def main():
+    # Ask the user for an initial number
+    curr_value = int(input("Enter a number: "))
+    
+    # Loop until the value is 100 or greater
+    while curr_value < 100:
+        curr_value = curr_value * 2  # Double the current value
+        print(curr_value)           # Print the doubled value
+
+# Call the main function when the program runs
+if __name__ == "__main__":
+    main()
+```
+## https://colab.research.google.com/drive/1FXoInSwwIDTeBrbD0cTpGdwjcdbGxj6e?authuser=4#scrollTo=hoSrflVJlFaF&line=13&uniqifier=1
