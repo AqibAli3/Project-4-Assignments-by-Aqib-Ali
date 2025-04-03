@@ -27,7 +27,7 @@ if __name__ == '__main__':
 ```
 
 ## Solution
-```
+```bash
 def print_multiple(message: str, repeats: int):
     """
     Prints the given message a specified number of times.
