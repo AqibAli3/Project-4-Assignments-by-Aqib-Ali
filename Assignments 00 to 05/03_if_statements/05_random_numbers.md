@@ -51,18 +51,19 @@ if __name__ == '__main__':
 
 import random
 
-N_NUMBERS : int = 10
-MIN_VALUE : int = 1
-MAX_VALUE : int = 100
+N_NUMBERS = 10  # Number of random numbers to generate
+MIN_VALUE = 1   # Minimum value for the random numbers
+MAX_VALUE = 100 # Maximum value for the random numbers
 
 def main():
     """
-    You should write your code here. Make sure to delete 
-    the 'pass' line before starting to write your own code.
+    Generate and print N_NUMBERS random integers
+    between MIN_VALUE and MAX_VALUE (inclusive).
     """
-    pass
+    for _ in range(N_NUMBERS):
+        print(random.randint(MIN_VALUE, MAX_VALUE))  # Generate and print each random number
 
 if __name__ == '__main__':
     main()
 ```
-
+https://colab.research.google.com/drive/1_nWjLMZYmjiQ1al9Ls48QV7ttvCXcAgy?authuser=4#scrollTo=Tt_u8LFF3wzQ&line=17&uniqifier=1
