@@ -27,18 +27,24 @@ if __name__ == '__main__':
 ```
 
 ## Solution
-
+```
 def print_multiple(message: str, repeats: int):
-    for i in range(repeats):
-        print(message)
+    """
+    Prints the given message a specified number of times.
+    """
+    for i in range(repeats):  # Loop through the number of repeats
+        print(message)  # Print the message
 
-# There is no need to edit code beyond this point
-
+# No need to edit code beyond this point
 def main():
-    message = input("Please type a message: ")
-    repeats = int(input("Enter a number of times to repeat your message: "))
-    print_multiple(message, repeats)
-
+    """
+    Main function to get user input and print the message multiple times.
+    """
+    message = input("Please type a message: ")  # Prompt user for a message
+    repeats = int(input("Enter a number of times to repeat your message: "))  # Prompt user for number of repeats
+    print_multiple(message, repeats)  # Call the function to print the message
 
 if __name__ == '__main__':
     main()
+```
+## https://colab.research.google.com/drive/10FuvcHQ51NcXx-FgRNBX4yYZ6z_wRGbx?authuser=4#scrollTo=lT9NlUOttoyQ&line=19&uniqifier=1
