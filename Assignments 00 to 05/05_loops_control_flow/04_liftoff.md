@@ -37,4 +37,16 @@ if __name__ == '__main__':
 ```
 
 ## Solution
+```
+def main():
+    # Countdown from 10 to 1
+    for i in range(10, 0, -1):  # Start at 10, go to 1, decrement by 1
+        print(i)
+    # Output Liftoff!
+    print("Liftoff!")
 
+# Call the main function when the program runs
+if __name__ == "__main__":
+    main()
+```
+## https://colab.research.google.com/drive/1zNiBfXCbLWUOkn0KNqy4kwm3bcGqcK6u?authuser=4#scrollTo=FQVSrAkDKQD0&line=11&uniqifier=1
