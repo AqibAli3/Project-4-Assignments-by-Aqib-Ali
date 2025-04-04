@@ -25,13 +25,22 @@ if __name__ == '__main__':
 
 ```bash
 def in_range(n, low, high):
-  """
-  Returns True if n is between low and high, inclusive. 
-  high is guaranteed to be greater than low.
-  """
-    if n >= low and n <= high:
-	return True
+    """
+    Returns True if n is between low and high, inclusive.
+    high is guaranteed to be greater than low.
+    """
+    if n >= low and n <= high:  
+        return True
+    return False  
 
-    # we could have also included an else statement, but since we are returning, it's fine without!
-    return False
+def main():
+    n = int(input("Enter a number: "))  
+    low = int(input("Enter the lower bound: "))  
+    high = int(input("Enter the upper bound: "))  
+    print(in_range(n, low, high))  
+
+if __name__ == '__main__':
+    main()
+
 ```
+## https://colab.research.google.com/drive/1bHdhIlVhdMeo9K7JXOmuMF6VCI5vv7lY?authuser=4#scrollTo=Oky726s6IC6I&line=9&uniqifier=1
