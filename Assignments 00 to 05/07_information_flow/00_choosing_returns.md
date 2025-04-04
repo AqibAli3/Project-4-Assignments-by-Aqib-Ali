@@ -42,8 +42,6 @@ def is_adult(age: int):
     
     return False
     
-########## No need to edit code beyond this point :) ##########
-
 def main():
     age : str = int(input("How old is this person?: "))
     print(is_adult(age))
@@ -52,3 +50,4 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+## https://colab.research.google.com/drive/13TnSv5FpVOrQzoGEtwe0f0JoDNBUogwk?authuser=4#scrollTo=9cco3qAAzS7c&line=9&uniqifier=1
