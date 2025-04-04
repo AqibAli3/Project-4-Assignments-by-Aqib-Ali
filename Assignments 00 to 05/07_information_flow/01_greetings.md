@@ -25,16 +25,21 @@ if __name__ == '__main__':
 
 
 ```bash
-def main():
-    name : str = input("What's your name? ")
-    print(greet(name))
-
-# There is no need to edit code beyond this point
-
 def greet(name):
+    """
+    Returns a greeting message for the given name.
+    """
     return "Greetings " + name + "!"
-	
+
+def main():
+    """
+    Prompts the user for their name and greets them using the helper function.
+    """
+    name = input("What's your name? ")  # Get the user's name
+    print(greet(name))  # Print the greeting from greet()
+
 if __name__ == '__main__':
     main()
 
 ```
+## https://colab.research.google.com/drive/1jZ_b2ascXLNaT5-omxbB-xVUX0gaTkK5?authuser=4#scrollTo=H9HXpfj5HeWz&line=17&uniqifier=1
