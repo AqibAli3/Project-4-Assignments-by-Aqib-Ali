@@ -1,7 +1,7 @@
 # Mad libs Python Project
 ## solution 
 
-```
+```bash
 def mad_libs():
     print("Welcome to the Mad Libs game!")
 
