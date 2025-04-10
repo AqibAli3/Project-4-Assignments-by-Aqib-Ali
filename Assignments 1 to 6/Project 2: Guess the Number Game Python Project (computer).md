@@ -32,3 +32,5 @@ def guess_number_computer():
 
 # Call the function
 guess_number_computer()
+```
+### https://colab.research.google.com/drive/1BdkmKycBtLD9HSv5-clE__pcyVYmni9F?usp=sharing
