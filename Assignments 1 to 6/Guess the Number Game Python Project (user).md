@@ -1,7 +1,6 @@
 # Guess the Number Game Python Project (user)
 
 ```bash
-# Run this cell in Google Colab to play the Guess the Number Game (User Guesses)!
 
 import random
 
@@ -31,3 +30,4 @@ def guess_number_user():
 # Call the function
 guess_number_user()
 ```
+### https://colab.research.google.com/drive/1hx_n0pVbLO4HngAqRyWRe6XvGbLDpXP1?authuser=4#scrollTo=PNx6nD4jjKRM&line=1&uniqifier=1
