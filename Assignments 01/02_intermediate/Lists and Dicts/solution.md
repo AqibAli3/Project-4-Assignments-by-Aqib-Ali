@@ -67,7 +67,7 @@ if __name__ == '__main__':
 ```
 
 # List Practice Solution
-```
+```bash
 def main():
     # Create a list called `fruit_list` that contains the following fruits:
     fruit_list = ['apple', 'banana', 'orange', 'grape', 'pineapple']
