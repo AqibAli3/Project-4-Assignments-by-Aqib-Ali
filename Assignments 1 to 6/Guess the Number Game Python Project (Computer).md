@@ -1,5 +1,6 @@
 # Guess the Number Game Python Project (Computer)
-```
+
+```bash
 import random
 
 def guess_number_computer():
