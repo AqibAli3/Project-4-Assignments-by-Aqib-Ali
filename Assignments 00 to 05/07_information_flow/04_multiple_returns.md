@@ -42,18 +42,26 @@ if __name__ == '__main__':
 ## Solution
 ```bash
 def get_user_info():
-    first_name: str = input("What is your first name?: ")
-    last_name: str = input("What is your last name?: ")
-    email_address : str = input("What is your email address?: ")
+    """
+    Collects user data: first name, last name, and email address.
+    Returns all three as a tuple in the order they are entered.
+    """
+    first_name = input("What is your first name?: ")  
+    last_name = input("What is your last name?: ")   
+    email_address = input("What is your email address?: ") 
     
-    return first_name, last_name, email_address
-
-########## No need to edit code past this point :) ##########
+    return first_name, last_name, email_address  
 
 def main():
+    """
+    Calls get_user_info to get user data and prints the result.
+    """
     user_data = get_user_info()
-    print("Received the following user data:", user_data)
+    print("Received the following user data:", user_data)  
 
 if __name__ == "__main__":
-     main()
+    main()
+
      ```
+
+## https://colab.research.google.com/drive/1v9ENoTwYF6G5LH7WMcCL2amugtQtChuB?authuser=4#scrollTo=_H-aBPnMIdvk&line=18&uniqifier=1
