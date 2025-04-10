@@ -21,3 +21,4 @@ def mad_libs():
 # Call the function
 mad_libs()
 ```
+### https://colab.research.google.com/drive/198WRDAUoE3za1-Tzt0AbGCZGu0fKZMLA?authuser=4#scrollTo=iD61XOF_gkE4&line=1&uniqifier=1
