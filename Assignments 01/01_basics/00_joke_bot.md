@@ -45,21 +45,24 @@ if __name__ == '__main__':
 ## Solution
 
 ```bash
-PROMPT: str = "What do you want? "
-JOKE: str = "Here is a joke for you! Sophia is heading out to the grocery store. A programmer tells her: get a liter of milk, and if they have eggs, get 12. Sophia returns with 13 liters of milk. The programmer asks why and Sophia replies: 'because they had eggs'"
-SORRY: str = "Sorry I only tell jokes."
+PROMPT = "What do you want? "
+JOKE = "Here is a joke for you! Panaversity GPT - Sophia is heading out to the grocery store. A programmer tells her: get a liter of milk, and if they have eggs, get 12. Sophia returns with 13 liters of milk. The programmer asks why and Sophia replies: 'because they had eggs'"
+SORRY = "Sorry I only tell jokes."
 
 def main():
-  
-    user_input = user_input.strip().lower()
-    
-    if "joke" in user_input:
-        print(JOKE)
+    """
+    Main function that interacts with the user and responds based on input.
+    """
+    user_input = input(PROMPT)  
+    if user_input.strip() == "Joke":  
+        print(JOKE)  
     else:
-        print(SORRY)
+        print(SORRY) 
 
 if __name__ == "__main__":
     main()
+
 ```
+## https://colab.research.google.com/drive/1vSw5DruBq7I4iOqBMxmFHliBtUUL9zkh?authuser=4#scrollTo=GBxiXYcRJft1&line=15&uniqifier=1
 
 
