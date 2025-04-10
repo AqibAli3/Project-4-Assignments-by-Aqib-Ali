@@ -149,7 +149,7 @@ Better luck next time!
 
 ## solution
 
-```
+```bash
 import random
 
 NUM_ROUNDS = 5  # Number of rounds the game will play
