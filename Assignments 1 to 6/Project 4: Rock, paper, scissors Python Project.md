@@ -1,6 +1,6 @@
 # Project 4: Rock, paper, scissors Python Project
 
-```
+```bash
 import random
 
 def rock_paper_scissors():
