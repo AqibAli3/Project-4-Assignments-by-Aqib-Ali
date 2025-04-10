@@ -37,4 +37,14 @@ if __name__ == '__main__':
 ```
 
 ## Solution
+~~~
+def main():
+    for i in range(10, 0, -1):
+        print(i)
+    print("Liftoff!")
 
+if __name__ == '__main__':
+    main()
+
+~~~
+## https://colab.research.google.com/drive/1VIs7ncnYaoSoJsH0wx_XG6HOJ01_bF_1?authuser=4#scrollTo=wOjJkmF1Plm9&line=8&uniqifier=1
