@@ -17,18 +17,21 @@ if __name__ == '__main__':
 
 ## Solution
 ```bash
-def main():
-	num: int = 7
-	num = subtract_seven(num)
-	print("this should be zero: ", num)
-
 def subtract_seven(num):
-	num = num - 7
-	return num
+    """
+    Subtracts 7 from the given number.
+    """
+    return num - 7 
 
-
-# There is no need to edit code beyond this point
+def main():
+    """
+    Calls the subtract_seven function and prints the result.
+    """
+    num = 7  
+    num = subtract_seven(num)  
+    print("This should be zero:", num)  
 
 if __name__ == '__main__':
     main()
 ```
+## https://colab.research.google.com/drive/1XLvw6IKUJ9C_fffcVoGhGVKUbE9VVoEN?authuser=4#scrollTo=uO16H3mzIsK7&line=14&uniqifier=1
