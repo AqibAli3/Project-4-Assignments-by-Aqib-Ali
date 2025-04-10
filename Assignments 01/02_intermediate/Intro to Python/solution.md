@@ -1,7 +1,5 @@
 # Mars Weight Solution
 
-# Mars Weight Solution
-
 There are three key stages to solving this problem:
 
 Getting the Earthling's weight from them, which we need the input function for. 
