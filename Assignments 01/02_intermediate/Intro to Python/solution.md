@@ -1,6 +1,6 @@
 # Mars Weight Solution
 
-```
+```bash
 MARS_MULTIPLE = 0.378  # Mars gravity constant compared to Earth's
 
 def main():
@@ -16,6 +16,7 @@ def main():
 if __name__ == "__main__":
     main()
 ```
+
 # Planetary Weights Solution
 ```bash
 def main():
